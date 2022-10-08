@@ -1,5 +1,7 @@
 // ==UserScript==
-// @name         精简MOJi辞書
+// @name         精简MOJi辞书
+// @name:ja      簡潔MOJi辞書
+// @name:zh-TW   精簡MOJi辭書
 // @namespace    https://github.com/scarletkc/StreamlineMOJiDict
 // @version      1.0
 // @description  A Tampermonkey browser script is used to make MOJiDict more streamlined to use.
