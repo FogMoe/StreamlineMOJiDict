@@ -6,7 +6,7 @@
 // @version      1.0
 // @description  A Tampermonkey browser script is used to make MOJiDict more streamlined to use.
 // @description:zh-TW  A Tampermonkey browser script is used to make MOJiDict more streamlined to use.
-// @description:ja     A Tampermonkey browser script is used to make MOJiDict more streamlined to use.
+// @description:ja  A Tampermonkey browser script is used to make MOJiDict more streamlined to use.
 // @author       Kc
 // @match        *://www.mojidict.com/search
 // @match        *://www.mojidict.com/
@@ -16,7 +16,7 @@
 (function() {
     'use strict';
     var counter = 0;
-    var hint = false;
+    //var hint = false;
 
     function DeleteDiv(className) {
         var elements = document.getElementsByClassName(className);
