@@ -46,6 +46,7 @@
     DeleteDiv("sidebar-container hidden_scrollbar sidebar hidden_scrollbar");
     DeleteDiv("sidebar-container hidden_scrollbar sidebar hidden_scrollbar isfold");
     DeleteDiv("header-basic sideBarisfold");
+    DeleteDiv("header-basic");
     DeleteDiv("footer-main");
     DeleteDiv("feedback-container");
     
