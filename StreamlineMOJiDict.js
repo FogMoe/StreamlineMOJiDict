@@ -5,6 +5,8 @@
 // @namespace    https://github.com/scarletkc/StreamlineMOJiDict
 // @version      1.0
 // @description  A Tampermonkey browser script is used to make MOJiDict more streamlined to use.
+// @description:zh-TW  A Tampermonkey browser script is used to make MOJiDict more streamlined to use.
+// @description:ja     A Tampermonkey browser script is used to make MOJiDict more streamlined to use.
 // @author       Kc
 // @match        *://www.mojidict.com/search
 // @match        *://www.mojidict.com/
