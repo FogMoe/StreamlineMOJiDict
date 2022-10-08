@@ -15,27 +15,20 @@
 
 (function() {
     'use strict';
-    var counter = 0;
-    //var hint = false;
+    var counters = 0;
 
     function DeleteDiv(className) {
         var elements = document.getElementsByClassName(className);
-        var loop = setInterval(function(){
-            var counts = 0;            
+        var loop = setInterval(function(){            
             if(elements.length > 0) {              
                 for (var i = 0; i < elements.length; i++) {
                     elements[i].remove();
-                }
-                counter++;   
-                /*if(counter > 4 && hint == false){
-                    alert("Done!");
-                    hint = true;
-                }*/             
+                } 
                 clearInterval(loop);
             }
             else{
-                if(counts > 4){
-                    counter++; 
+                counters++;
+                if(counters > 10){ 
                     clearInterval(loop);
                 }
             }
